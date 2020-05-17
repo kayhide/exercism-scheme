@@ -8,5 +8,5 @@
    ((is-divisible? year 400) #t)
    ((is-divisible? year 100) #f)
    ((is-divisible? year 4) #t)
-   (#t #f)
+   (else #f)
    ))
